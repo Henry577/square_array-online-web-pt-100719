@@ -1,5 +1,6 @@
 def square_array(array)
-  new_numbers = []
+  
+  count = 0
   array.each do |n|
     y = n**2
     new_numbers.push(y)
